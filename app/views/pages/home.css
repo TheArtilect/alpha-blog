@@ -1,0 +1,27 @@
+
+body {
+  background-image: url("http://cdn.shopify.com/s/files/1/0558/2081/products/Big-Trouble_Tyler-Stout_blog_1024x1024.jpg?v=1417468513");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-attachment: fixed;
+}
+
+
+h1 {
+  color: white;
+  font-family: "Times New Roman";
+}
+
+h2 {
+  color: black;
+  font-family: "Times New Roman";
+}
+
+
+ul {
+  color: black;
+}
+
+img {
+  text-align: center;
+}
