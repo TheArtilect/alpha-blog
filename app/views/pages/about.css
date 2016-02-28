@@ -1,6 +1,5 @@
 
 body {
-  background-image: url("https://i.imgur.com/6e5MYYs.png");
   background-repeat: no-repeat;
   background-position: right top;
   background-attachment: fixed;
@@ -8,7 +7,6 @@ body {
 
 
 h1 {
-  color: white;
   font-family: "Times New Roman";
   text-align: center;
 }
