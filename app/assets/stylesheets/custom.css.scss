@@ -1,13 +1,17 @@
 
-$navbar-default-bg: #750404;
+$navbar-default-bg: #000;
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+
+
+
+
 #logo {
   float: left;
   font-size: 1.7em;
-  color: #fff;
+  color: #000;
   text-transform: uppercase;
   letter-spacing: -1px;
   font-weight: bold;
@@ -22,15 +26,19 @@ $navbar-default-bg: #750404;
   text-align: center;
 }
 
+
+
 .jumbotron {
-  background-image: asset-url('btlc-title.jpg');
+  background-image: asset-url('NYC.jpg');
   background-size: cover;
-  height: 550px;
+  height: 500px;
+  margin-top: -23px;
 }
 
 .jumbotron h1 {
-  color: #fff;
+  color: #000;
   text-align: center;
+  margin-top: 50px;
   margin-bottom: 30px;
   letter-spacing: -1px;
   font-weight: bold;
@@ -38,8 +46,8 @@ $navbar-default-bg: #750404;
 
 .btn-xlarge {
   font-size: 1.7em;
-  background-color: black;
-  
+  background-color: grey;
+  border-color: black;
 }
 
 
@@ -69,11 +77,17 @@ $navbar-default-bg: #750404;
 }
 
 .footer {
-  margin-top: 45px;
-  padding-top: 5px;
-  border-top: 1px solid #000;
-  color: #777777;
+  margin-top: 10px;
+  margin-bottom: 6px;
   
+}
+
+#footerid {
+  bottom: 0px;
+  height: 40px;
+  width: 100%;
+  position: fixed;
+  margin-bottom: 0px;
 }
 
 footer a:hover {
@@ -95,4 +109,106 @@ footer ul {
 footer ul li {
   float: left;
   margin-left: 15px;
+}
+
+
+
+/* about me page */
+
+body {
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  margin: 0;
+  
+}
+
+
+.back {
+  position: relative;
+  height: 1000px;
+  box-sizing: border-box;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: -25px;
+  border-top: 0px;
+  padding-top: 0px;
+}
+
+#middle2 {
+  background-image: url("https://4.bp.blogspot.com/-jcmbnEuBXk8/VdIX9g4uc9I/AAAAAAABxhw/EGXQf0vQNa8/s0/Manhattan_Sunset_uhd.jpg");
+  background-attachment: fixed;
+
+}
+
+
+
+#me, .languages {
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  text-shadow: -1px 2px #000;
+  padding-top: 150px;
+  padding-bottom: 0;
+  text-align: justify;
+  padding-left: 500px;
+  padding-right: 500px;
+  margin: 0px;
+}
+
+#me h1 {
+  margin-top: 150px;
+}
+
+
+
+.languages {
+  padding-top: 0px;
+}
+
+.languages ul li {
+  float: left;
+  width: 40%;
+}
+
+
+#top {
+  background-image: url("https://4.bp.blogspot.com/-kbizGbjBtKQ/VWgrO4ZT19I/AAAAAAABjaA/1qhd2e6jGio/s0/Seaside_Sunset_uhd.jpg");
+  background-attachment: fixed;
+}
+
+#topwriting {
+  padding-top: 150px;
+  color: white;
+}
+
+
+
+
+
+.letter {
+  color: white;
+}
+
+
+.button {
+
+  padding: 10px;
+  background-color: #b36b00;
+  margin-right: 5px;
+  border: 1px solid #fff;
+}
+
+
+#whole {
+  background-color: #fff;
+  height: 100%;
+}
+
+#contact {
+  text-align: center;
+}
+
+#butcon {
+  color: white;
 }
