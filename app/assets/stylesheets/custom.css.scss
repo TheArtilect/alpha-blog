@@ -119,6 +119,12 @@ footer ul li {
 
 
 
+
+.allbody {
+  margin-top: 50px;
+}
+
+
 /* about me page */
 
 body {
@@ -136,9 +142,8 @@ body {
   box-sizing: border-box;
   background-size: cover;
   background-repeat: no-repeat;
-  margin-top: -25px;
-  border-top: 0px;
-  padding-top: 0px;
+  /* navbar obstructing flash message */
+
 }
 
 #middle2 {
@@ -224,4 +229,15 @@ body {
 
 #indexpage {
   margin-top: 100px;
+}
+
+
+/* new users */
+
+#newu {
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  padding-top: 100px;
+  
 }
