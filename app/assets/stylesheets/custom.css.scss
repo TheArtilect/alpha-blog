@@ -7,6 +7,17 @@ $navbar-default-bg: #000;
 
 
 
+#badge {
+  background-color: #fff;
+  text-color: #000;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+.input_checkbox input {
+  width: auto !important;
+}
 
 #logo {
   float: left;
@@ -87,6 +98,8 @@ $navbar-default-bg: #000;
   padding-left: 0;
   
 }
+
+
 
 #userlisting {
   align: middle;
@@ -251,5 +264,6 @@ body {
   padding-top: 100px;
   
 }
+
 
 
